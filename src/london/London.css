@@ -1,0 +1,35 @@
+#west-path {
+  transition: 250ms;
+}
+#west-path:hover {
+  fill: #ad1fff;
+}
+
+#north-path {
+  transition: 250ms;
+}
+#north-path:hover {
+  fill: #ffc93f;
+}
+
+#central-path {
+  transition: 250ms;
+}
+#central-path:hover {
+  fill: #b5df00;
+}
+
+#south-path {
+  transition: 250ms;
+}
+#south-path:hover {
+  fill: #bf1b00;
+}
+
+#east-path {
+  transition: 250ms;
+}
+#east-path:hover {
+  fill: #5fb1ff;
+}
+

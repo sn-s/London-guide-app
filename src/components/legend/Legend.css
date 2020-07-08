@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.legend {
+  justify-content: center;
+  width: 90%;
+  border-radius: 10px;
+  margin: 10px 10px 20px 60px;
+}
+
+.legend ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5px;
+}
+
+.legend li {
+  line-height: 100%;
+  transition: 0.3s ease;
+}
+
+.legend li:hover {
+  transform: scale(0.9);
+}
+
+.legend span {
+  vertical-align: top;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 40px;
+}
+
+.navbar-infobox {
+  position: relative;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .legend {
+    justify-content: center;
+    width: 95%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .legend ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+    padding-left: 0;
+  }
+  .legend span {
+    vertical-align: top;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+  img {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .legend {
+    justify-content: center;
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px 10px 10px 7px;
+  }
+  .legend ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    padding-left: 0;
+  }
+  .legend span {
+    vertical-align: top;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+  }
+  img {
+    width: 30px;
+  }
+}

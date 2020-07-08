@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.dashboard-page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.dashboard-page a {
+  text-decoration: none;
+}
+.dashboard-page nav {
+  background: linear-gradient(
+    to right,
+    #4776e6 0%,
+    #8e54e9 51%,
+    #4776e6 100%
+  );
+  width: 100%;
+  height: 70px;
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard-page nav button {
+  margin-right: 0;
+  background: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 15px;
+}
+.map-component {
+  text-align: center;
+  flex: 2;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.card-component {
+  text-align: center;
+  flex: 1;
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 1250px) {
+  nav {
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .dashboard-page {
+    overflow: auto;
+  }
+}
+
+
+/* page enter keyframes */
+@-webkit-keyframes moveInBottom {
+  from { 
+    -webkit-transform: translate3d(0, 100%, 0); 
+    visibility: visible; 
+  }
+  to { -webkit-transform: translate3d(0, 0, 0); }
+}
+
+@keyframes moveInBottom {
+  from { 
+    transform: translate3d(0, 100%, 0); 
+    visibility: visible; 
+  }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+/* page exit keyframes */
+@-webkit-keyframes moveOutBottom {
+  from { -webkit-transform: translate3d(0, 0, 0); }
+  to { -webkit-transform: translate3d(0, 100%, 0); visibility: hidden; }
+}
+
+@keyframes moveOutBottom {
+  from { transform: translate3d(0, 0, 0); }
+  to { transform: translate3d(0, 100%, 0); visibility: hidden; }
+}
+
+.dashboard-page.page-enter {
+  -webkit-animation: moveInBottom 0.5s forwards;
+  animation: moveInBottom 0.5s forwards;
+}
+
+.dashboard-page.page-exit {
+  -webkit-animation: moveOutBottom 0.5s forwards;
+  animation: moveOutBottom 0.5s forwards;
+}
