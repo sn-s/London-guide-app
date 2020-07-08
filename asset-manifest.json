@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/London-guide-app/static/css/main.b9924b20.chunk.css",
-    "main.js": "/London-guide-app/static/js/main.c4b33c8c.chunk.js",
-    "main.js.map": "/London-guide-app/static/js/main.c4b33c8c.chunk.js.map",
-    "runtime-main.js": "/London-guide-app/static/js/runtime-main.ddace438.js",
-    "runtime-main.js.map": "/London-guide-app/static/js/runtime-main.ddace438.js.map",
-    "static/js/2.3ef3f8e2.chunk.js": "/London-guide-app/static/js/2.3ef3f8e2.chunk.js",
-    "static/js/2.3ef3f8e2.chunk.js.map": "/London-guide-app/static/js/2.3ef3f8e2.chunk.js.map",
-    "index.html": "/London-guide-app/index.html",
-    "precache-manifest.5d62a28c5f723e76c0784dad3478e020.js": "/London-guide-app/precache-manifest.5d62a28c5f723e76c0784dad3478e020.js",
-    "service-worker.js": "/London-guide-app/service-worker.js",
-    "static/css/main.b9924b20.chunk.css.map": "/London-guide-app/static/css/main.b9924b20.chunk.css.map",
-    "static/js/2.3ef3f8e2.chunk.js.LICENSE.txt": "/London-guide-app/static/js/2.3ef3f8e2.chunk.js.LICENSE.txt"
+    "main.css": "/london-guide-app/static/css/main.b9924b20.chunk.css",
+    "main.js": "/london-guide-app/static/js/main.0165f8be.chunk.js",
+    "main.js.map": "/london-guide-app/static/js/main.0165f8be.chunk.js.map",
+    "runtime-main.js": "/london-guide-app/static/js/runtime-main.9eb3e271.js",
+    "runtime-main.js.map": "/london-guide-app/static/js/runtime-main.9eb3e271.js.map",
+    "static/js/2.3ef3f8e2.chunk.js": "/london-guide-app/static/js/2.3ef3f8e2.chunk.js",
+    "static/js/2.3ef3f8e2.chunk.js.map": "/london-guide-app/static/js/2.3ef3f8e2.chunk.js.map",
+    "index.html": "/london-guide-app/index.html",
+    "precache-manifest.29a9f0370d0f011a6cb690e034f948c8.js": "/london-guide-app/precache-manifest.29a9f0370d0f011a6cb690e034f948c8.js",
+    "service-worker.js": "/london-guide-app/service-worker.js",
+    "static/css/main.b9924b20.chunk.css.map": "/london-guide-app/static/css/main.b9924b20.chunk.css.map",
+    "static/js/2.3ef3f8e2.chunk.js.LICENSE.txt": "/london-guide-app/static/js/2.3ef3f8e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ddace438.js",
+    "static/js/runtime-main.9eb3e271.js",
     "static/js/2.3ef3f8e2.chunk.js",
     "static/css/main.b9924b20.chunk.css",
-    "static/js/main.c4b33c8c.chunk.js"
+    "static/js/main.0165f8be.chunk.js"
   ]
 }
